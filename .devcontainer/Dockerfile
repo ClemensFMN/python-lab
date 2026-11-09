@@ -2,7 +2,7 @@
 
 # [Choice] Python version (use -bullseye variants on local arm64/Apple Silicon): 3.14, 3.13, 3.12, 3.11, 3.10, 3.9, 3.8, 3.7, 3.6
 ARG VARIANT="3.14"
-FROM mcr.microsoft.com/devcontainers/python:${VARIANT}-bullseye
+FROM mcr.microsoft.com/devcontainers/python:${VARIANT}-bookworm
 
 # [Optional] If your requirements don't change often, uncomment this section to add them to the image layer
 # COPY requirements.txt /tmp/pip-tmp/
