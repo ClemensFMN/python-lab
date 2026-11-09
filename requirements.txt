@@ -1,0 +1,8 @@
+# Python dependencies for this project
+# Add your dependencies here in the format:
+# package_name==version
+# Example:
+# flask==2.0.1
+# requests==2.25.1
+# pytest==6.2.4
+jinja2=3.1.6
